@@ -213,6 +213,7 @@ TARGET_RIL_VARIANT := caf
 ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_USES_OLD_MNC_FORMAT := true
+DISABLE_RILD_OEM_HOOK := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
