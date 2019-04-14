@@ -227,6 +227,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.use_fifo_ui=1
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.use_fifo_ui=1
+
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.usb.config.extra=none
