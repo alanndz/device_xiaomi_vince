@@ -147,17 +147,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true \
 	vendor.vidc.enc.disable_bframes=1 \
 	vendor.video.disable.ubwc=1
-	
+
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.fw.dex2oat_thread_count=8 \
-    ro.vendor.extension_library=libqti-perfd-client.so
-	
-#QTI Performance
+ro.sys.fw.dex2oat_thread_count=8 \
+ro.vendor.extension_library=libqti-perfd-client.so \
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# QTI Performance
 PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.enable_prefetch=1 \
 	vendor.iop.enable_uxe=1 \
@@ -165,7 +166,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.perf.iop_v3.enable=1 \
 	ro.vendor.at_library=libqti-at.so \
 	persist.vendor.qti.games.gt.prof=1
-	
+
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
