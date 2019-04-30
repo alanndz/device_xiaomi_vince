@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository": "BeastRoms-Devices/kernel_xiaomi_msm8953_vince",
+    "repository": "https://github.com/alanndz/kernel_xiaomi_msm8953-4.9",
     "target_path": "kernel/xiaomi/msm8953",
-    "branch": "lineage-16.0"
+    "branch": "stock"
   },
   {
     "remote": "github",
