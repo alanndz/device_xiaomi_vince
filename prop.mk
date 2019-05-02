@@ -73,29 +73,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.CDS=off \
     persist.camera.video.CDS=off \
     persist.camera.HAL3.enabled=1 \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap \
     persist.camera.eis.enable=1 \
 
 # MiuiCamera
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packagelist=com.android.camera,org.lineageos.snap,com.google.android.GoogleCamera,com.google.android.GoogleCameraTele,com.google.android.GoogleCameraWide,com.google.android.GoogleCamerb \
-
     dalvik.vm.isa.arm64.variant=cortex-a53 \
     dalvik.vm.isa.arm.variant=cortex-a53 \
-
     persist.flash.low.lux=390 \
     persist.flash.light.lux=340 \
-
     persist.imx376_ofilm.low.lux=310 \
     persist.imx376_ofilm.light.lux=280 \
-
     persist.imx376_sunny.low.lux=310 \
     persist.imx376_sunny.light.lux=280 \
-
     persist.ov13855_sunny.low.lux=385 \
     persist.ov13855_sunny.light.lux=370 \
-
     persist.s5k3l8_ofilm.low.lux=379 \
-    persist.s5k3l8_ofilm.light.lux=367
+    persist.s5k3l8_ofilm.light.lux=367 \
 
 # Cne
 PRODUCT_PROPERTY_OVERRIDES += \
