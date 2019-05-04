@@ -1,21 +1,21 @@
 [
   {
     "remote": "github",
-    "repository": "https://github.com/alanndz/kernel_xiaomi_msm8953-4.9",
+    "repository": "alanndz/kernel_xiaomi_msm8953-4.9",
     "target_path": "kernel/xiaomi/msm8953",
     "branch": "stock"
   },
   {
     "remote": "github",
-    "repository": "root2raj/proprietary_vendor_xiaomi",
+    "repository": "alanndz/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch": "pie"
   },
   {
     "remote": "github",
-    "repository": "root2raj/vendor_MiuiCamera",
+    "repository": "alanndz/vendor_MiuiCamera",
     "target_path": "vendor/MiuiCamera",
-    "branch": "pie"
+    "branch": "master"
   },
   {
     "remote": "github",
