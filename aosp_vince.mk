@@ -24,14 +24,14 @@ $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/colt/common.mk)
+# Inherit some common Aex stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080x2160
 
 # Device identifier
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := colt_vince
+PRODUCT_NAME := aosp_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
