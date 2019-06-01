@@ -18,6 +18,8 @@
 
 DEVICE_PATH := device/xiaomi/vince
 
+TARGET_SPECIFIC_HEADER_PATH := out/soong/.intermediates/vendor/xtended/build/soong/generated_kernel_includes/gen/usr/techpack/audio/include
+ 
 # Filesystem
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
